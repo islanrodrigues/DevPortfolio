@@ -1,0 +1,21 @@
+*{margin: 0; padding: 0}
+
+
+/*	--- BARRA DE MENU --- 	*/
+#barra-menu{
+	background-color: black; 
+	width: auto;
+	height: 45px;
+}
+
+#barra-menu > a{
+	text-decoration: none;
+	color: white;
+	padding: 5px 10px;
+	margin: 5px 15px;
+	float: left;
+}
+
+#barra-menu > #link-menu{
+	float: right;
+}
