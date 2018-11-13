@@ -91,17 +91,17 @@ hr {
   color: white;
   padding: 0px 0px;
   margin: 15px 25px;
-  float: left;
-  
+  float: left;  
 }
 /* -- BARRA DE NAVEGAÇÃO -- */
 ul {
   margin: 0;
   padding: 0;
   list-style: none;
+
 }
 #topo ul {
-  background: #111111;
+  background: black;
   margin-top: 15px;
   float: left;
 }
@@ -141,7 +141,7 @@ body .contatos #navegacao a#contatos,
   align-items: center;
   display: flex;
   justify-content: center;
-  background-image: url("../../images/banner.jpg");
+  background-image: url("../../imagens/banner.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -329,3 +329,27 @@ body .contatos #navegacao a#contatos,
     opacity: 0.5;
     padding: 2rem 0;
     text-align: center; }
+
+    /* FORMULÁRIO RODAPÉ*/
+
+  #formulario-rodape > h5{
+    padding: 0px;
+    margin: 0px;
+  }
+  #formulario-rodape > input{
+    padding: 0px;
+    margin: 6px 0px 6px 0px;
+    border: 1px solid red;
+    width: 300px;
+  }
+
+  #formulario-rodape > button{
+    height: 30px;
+    width: 50px;
+
+
+  }
+
+
+
+
