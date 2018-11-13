@@ -25,6 +25,12 @@ header.special {
   margin: auto;
 
 }
+a {
+  color: #4b56aa;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px;
+}
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
   line-height: 1.5;
@@ -64,7 +70,14 @@ hr {
 	width: auto;
 	height: 53px;
 }
-
+.logo {
+  background-image: url("../../imagens/logo.jpg");
+  background-position: left center;
+  width: 150px;
+  height: 25px;
+  z-index: 1;
+  background-repeat: no-repeat;  
+}
 #barra-menu > a{
 	text-decoration: none;
 	color: white;
@@ -73,7 +86,54 @@ hr {
 	float: left;
 	
 }
+.navegacao-menu > a{
+  text-decoration: none;
+  color: white;
+  padding: 0px 0px;
+  margin: 15px 25px;
+  float: left;
+  
+}
+/* -- BARRA DE NAVEGAÇÃO -- */
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#topo ul {
+  background: #111111;
+  margin-top: 15px;
+  float: left;
+}
+#topo ul li {
+  float: left;
+}
+#topo ul a {
+  font-size: 0.9em;
+  display: block;
+  padding: 0.5em 1.5em;
+  text-decoration: none;
+  color: #fff;
+  background: url(../../imagens/barra.png) no-repeat left center;
+}
+#topo ul .primeiro a {
+  background: none;
+}
+#topo ul a:hover {
+  color: #111111;
+  background: #fff;
+}
+body .home #navegacao a#home, 
+body .quem-somos #navegacao a#quem-somos,
+body .documentacao #navegacao a#documentacao,
+body .fotos #navegacao a#fotos,
+body .contatos #navegacao a#contatos,
+{
+  color: #fff;
+  background: #111111;
+  cursor: text;
 
+}
 /*	--- BANNER --- 	*/
 #banner {
   background-color: #111111;
