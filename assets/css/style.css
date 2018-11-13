@@ -242,6 +242,11 @@ body .contatos #navegacao a#contatos,
   position: relative;
   text-align: center;
   z-index: 1; }
+
+  #cta > .inner {
+    position: relative;
+    top: 70px;
+    }
   
   /* DEPOIMENTOS */
 .testimonials {
